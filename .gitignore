@@ -1,0 +1,56 @@
+# ChemoTrace Project .gitignore
+
+# Executables
+# Ignore the specific compiled program from the documentation
+chemotrace
+chemotrace.exe
+
+# Ignore other common executable names
+*.out
+*.exe
+
+# Object files and intermediate build files
+*.o
+*.obj
+*.d
+
+# Libraries and Archives
+*.a
+*.so
+*.lib
+*.dll
+*.dylib
+
+# Log files and crash dumps
+*.log
+*.dmp
+
+# IDE and Editor specific files
+# -----------------------------
+
+# Visual Studio Code
+.vscode/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.sln.dotstates
+*.suo
+*.user
+*build/
+[Dd]ebug/
+[Rr]elease/
+x64/
+ipch/
+
+# Operating System generated files
+# --------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
